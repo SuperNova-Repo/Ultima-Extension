@@ -15,7 +15,7 @@
             "TvSeries",
             "Anime"
         ],
-        "version": 1,
+        "version": 2,
         "internalName": "KinoKiste",
         "jarUrl": "https://raw.githubusercontent.com/SuperNova-Repo/Ultima-Extension/refs/heads/builds/KinoKiste.jar",
         "description": "StreamKiste - Filme online stream anschauen Kostenlos auf Deutsch",
