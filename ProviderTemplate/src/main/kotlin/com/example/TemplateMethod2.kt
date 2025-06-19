@@ -9,7 +9,7 @@ import com.lagradost.cloudstream3.mainPageOf
 import com.lagradost.cloudstream3.utils.ExtractorLink
 
 
-class ExtensionName : MainAPI() {
+class ExtensionName2 : MainAPI() {
     override var mainUrl = "Domain of Website"
     override var name = "Name Of Website"
     override val hasMainPage = true //if website has Homepage
@@ -26,32 +26,39 @@ class ExtensionName : MainAPI() {
 
     //Get the Homepage
     // remove the // before the overide and the curly brace at the bottom when working
-  //  override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
-        /*
-        var list = mutableListOf<AnimeSearchResponse>()
-        val res = app.get("$mainUrl/${request.data}/page/$page").document
-        res.select("article.anime.poster.por").mapNotNull { article ->
-            val name = article.selectFirst("header > div.ttl")?.text() ?: ""
-            val poster = article.selectFirst("img")?.attr("src")
-            val url = article.selectFirst("a.lnk-blk")?.attr("href") ?: ""
-            list.add(newAnimeSearchResponse(name, url)
-            {
-                this.posterUrl = poster
-            })
-        }
-        return newHomePageResponse(
-            list = HomePageList(
-                name = request.name,
-                list = list,
-                isHorizontalImages = true
-            ),
-            hasNext = true
-        )
+    //  override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
+    /*
+            val document = app.get("$mainUrl/${request.data}/?page=$page").document
+            val home     = document.select("section > div.item").mapNotNull { it.toSearchResult() }
+
+            return newHomePageResponse(
+                list    = HomePageList(
+                    name               = request.name,
+                    list               = home,
+                    isHorizontalImages = true
+                ),
+                hasNext = true
+            )
             */
 
-  //  }
+    //  }
 
 
+    //This is to get Title,Href,Posters for Homepage
+
+    // optional/for more advanced
+    /*
+    private fun Element.toSearchResult(): SearchResponse {
+     */
+    /*
+            val title     = this.select("a > img").attr("alt")
+            val href      = fixUrl(this.select("a").attr("href"))
+            val posterUrl = fixUrlNull(this.select("a > img").attr("src").toString())
+            return newMovieSearchResponse(title, href, TvType.Movie) {
+                this.posterUrl = posterUrl
+            }
+            */
+//}
 
     // This function gets called when you search for something also
     //This is to get Title,Href,Posters for Homepage
