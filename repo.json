@@ -1,0 +1,8 @@
+{
+  "name": "SuperNovas Ultima",
+  "description": "This is a fork of ''Rowdy Avocado's Ultima''-Plugin for CS3.",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/SuperNova-Repo/Ultima-Extension/refs/heads/builds/plugins.json"
+  ]
+}

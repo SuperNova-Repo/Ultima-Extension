@@ -1,0 +1,44 @@
+[
+    {
+        "iconUrl": "https://raw.githubusercontent.com/SuperNova-Repo/Ultima-Extension/master/logos/streamkiste.png",
+        "jarFileSize": 65099,
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/SuperNova-Repo/Ultima-Extension",
+        "fileSize": 15338,
+        "status": 1,
+        "language": "de",
+        "authors": [
+            "Kostya Lolinger & RowdyRushya"
+        ],
+        "tvTypes": [
+            "Movies",
+            "TvSeries",
+            "Anime"
+        ],
+        "version": 1,
+        "internalName": "KinoKiste",
+        "jarUrl": "https://raw.githubusercontent.com/SuperNova-Repo/Ultima-Extension/refs/heads/builds/KinoKiste.jar",
+        "description": "KinoKiste - Filme online stream anschauen Kostenlos auf Deutsch",
+        "url": "https://raw.githubusercontent.com/SuperNova-Repo/Ultima-Extension/refs/heads/builds/KinoKiste.cs3",
+        "name": "KinoKiste"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/SuperNova-Repo/Ultima-Extension/master/logos/ultima.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/SuperNova-Repo/Ultima-Extension",
+        "fileSize": 188494,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Kostya Lolinger & RowdyRushya"
+        ],
+        "tvTypes": [
+            "All"
+        ],
+        "version": 42,
+        "internalName": "Ultima",
+        "description": "The ultimate All-in-One home screen to access all of your extensions at one place (You need to select/deselect sections in Ultima's settings to load other extensions on home screen)",
+        "url": "https://raw.githubusercontent.com/SuperNova-Repo/Ultima-Extension/refs/heads/builds/Ultima.cs3",
+        "name": "Ultima"
+    }
+]
