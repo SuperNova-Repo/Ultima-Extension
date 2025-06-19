@@ -27,7 +27,7 @@ import org.jsoup.Jsoup
 import org.jsoup.nodes.Element
 
 class KinoKiste : MainAPI() {
-    override var name = "StreamKiste"
+    override var name = "KinoKiste"
     override var mainUrl = "https://streamkiste.taxi"
     override val supportedTypes = setOf(TvType.Movie, TvType.TvSeries)
     override var lang = "de"
