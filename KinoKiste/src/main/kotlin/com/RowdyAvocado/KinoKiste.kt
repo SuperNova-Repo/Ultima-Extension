@@ -27,8 +27,8 @@ import org.jsoup.Jsoup
 import org.jsoup.nodes.Element
 
 class KinoKiste : MainAPI() {
-    override var name = "KinoKiste"
-    override var mainUrl = "https://kinokiste.live"
+    override var name = "StreamKiste"
+    override var mainUrl = "https://streamkiste.taxi"
     override val supportedTypes = setOf(TvType.Movie, TvType.TvSeries)
     override var lang = "de"
     override val hasMainPage = true
@@ -46,7 +46,9 @@ class KinoKiste : MainAPI() {
             mainPageOf(
                     "$mainUrl/filme/" to "Filme",
                     "$mainUrl/kinofilme/" to "Filme im Kino",
-                    "$mainUrl/serien/" to "Serien"
+                    "$mainUrl//filme/?genere=6" to "Komödien",
+                    "$mainUrl/serien/" to "Serien",
+                    "$mainUrl/beliebte-filme.html" to "Beliebte Serien"
             )
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse? {
