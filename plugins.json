@@ -16,11 +16,11 @@
             "Anime"
         ],
         "version": 1,
-        "internalName": "KinoKiste",
+        "internalName": "StreamKiste",
         "jarUrl": "https://raw.githubusercontent.com/SuperNova-Repo/Ultima-Extension/refs/heads/builds/KinoKiste.jar",
-        "description": "KinoKiste - Filme online stream anschauen Kostenlos auf Deutsch",
+        "description": "StreamKiste - Filme online stream anschauen Kostenlos auf Deutsch",
         "url": "https://raw.githubusercontent.com/SuperNova-Repo/Ultima-Extension/refs/heads/builds/KinoKiste.cs3",
-        "name": "KinoKiste"
+        "name": "StreamKiste"
     },
     {
         "iconUrl": "https://raw.githubusercontent.com/SuperNova-Repo/Ultima-Extension/master/logos/ultima.png",
