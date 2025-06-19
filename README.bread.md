@@ -1,6 +1,5 @@
 ### The Only Repo That Contains The Ultima-Plugin
 
-###[![Discord](https://invidget.switchblade.xyz/yMTTkJFEZ9)](https://discord.gg/yMTTkJFEZ9)
 
 ## Change The Food Emoji
 - [Avocado](/README.md)
